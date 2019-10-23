@@ -1,0 +1,32 @@
+<img src='{{ name }}'>
+
+<ol>
+    {{#each wordArr}}
+        Val is: {{val}}
+        <br>
+        Quan is: {{quan}}
+        <br>
+        Key is: {{@key}}
+        <br>
+        First is: {{@first}}
+        <br>
+        Last is: {{@last}}
+        <br>
+    {{/each}}
+</ol>
+
+{{!-- Use this if wordArr is just simple array: ['one', 'two', 'three'] --}}
+
+{{!-- 
+<ol>
+    {{#each wordArr}}
+        Value is: {{this}}
+        <br>
+        Key is: {{@key}}
+        <br>
+        First is: {{@first}}
+        <br>
+        Last is: {{@last}}
+        <br>
+    {{/each}}
+</ol> --}}

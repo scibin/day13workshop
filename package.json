@@ -1,0 +1,16 @@
+{
+  "name": "day13workshop",
+  "version": "1.0.0",
+  "description": "Day 13 workshop",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
